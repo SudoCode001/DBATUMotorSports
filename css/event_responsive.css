@@ -1,0 +1,39 @@
+
+/* only small tablets */
+ @media (min-width: 761px) and (max-width: 990px) {
+ 
+	
+	.carousel a.carousel-control-prev {
+      left: 20px;
+      top:45%;
+    }
+	.carousel a.carousel-control-next {
+      right: 20px;
+      top:45%;
+    }
+    .design{
+     height:210px;
+    }
+     .autocross{
+     height:220px;
+     }
+}
+/* mobile or only mobile */
+ @media (max-width: 760px) {
+     
+.carousel a.carousel-control-prev {
+    left: 20px;
+    top:48%;
+    width: 45px;
+    height: 40px;
+}
+
+.carousel a.carousel-control-next {
+    right: 20px;
+    top:48%;
+    width: 45px;
+    height: 40px;
+}
+
+}
+ 
