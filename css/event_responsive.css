@@ -5,11 +5,11 @@
 	
 	.carousel a.carousel-control-prev {
       left: 20px;
-      top:45%;
+      top:200px;
     }
 	.carousel a.carousel-control-next {
       right: 20px;
-      top:45%;
+      top:200px;
     }
     .design{
      height:210px;
@@ -23,14 +23,14 @@
      
 .carousel a.carousel-control-prev {
     left: 20px;
-    top:48%;
+    top:200px;
     width: 45px;
     height: 40px;
 }
 
 .carousel a.carousel-control-next {
     right: 20px;
-    top:48%;
+    top:200px;
     width: 45px;
     height: 40px;
 }
