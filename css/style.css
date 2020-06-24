@@ -1,0 +1,116 @@
+/* Theme colors 
+
+#a7bc5b
+#8da242
+
+Fonts:
+
+*/
+
+/* -------------Contact ---------------- */
+
+*{
+    font-size: 18px;
+}
+
+@font-face{
+    font-family: 'BowlbyOne';
+    src: url(../fonts/BowlbyOneSC-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Forum';
+    src: url(../fonts/Forum-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Arvo';
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+
+#contact{
+    background-color: #F5F5F5;
+    padding: 15px 10px;
+}
+
+#contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: #323232;
+    font-family: Forum;
+
+}
+
+#contact h2::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 160px;
+    background: #8da242;
+    margin: 15px auto 5px;
+    bottom: -16px;
+}
+
+#contact h4{
+    color: #323232;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: BowlbyOne;
+    font-size: 130%;
+}
+
+#contact h5{
+    font-family: Arvo;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+#contact .address, #contact .phone, #contact .email, #contact .social{
+    text-align: center;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #000;
+    font-family: Forum;
+    font-size: 120%;
+    line-height: 0.8px;
+    letter-spacing: 1px;
+}
+
+#contact .fa-envelope, .fa-phone-square-alt, .fa-share-alt{
+    color: #a7bc5b;
+    font-size: 200%;
+}
+
+
+#contact .fa-map-marker-alt{
+    color: #a7bc5b;
+    font-size: 200%;
+}
+
+#contact .fa-twitter{
+    color: #1da1f2;
+    font-size: 200%;
+}
+
+#contact .fa-facebook{
+    background-color: #fff;
+    color: #3b5998;
+    font-size: 200%;
+}
+
+#contact .fa-instagram{
+
+    background-color: #fff;
+    color: #e1306c;
+    font-size: 130%;
+}
+#contact .fa-youtube{
+    color: #FF0000;
+    background-color: #FFF;
+    font-size: 130%;
+}
