@@ -92,7 +92,7 @@ Fonts:
     font-size: 200%;
 }
 
-#contact .fa-twitter{
+/* #contact .fa-twitter{
     color: #1da1f2;
     font-size: 200%;
 }
@@ -101,16 +101,137 @@ Fonts:
     background-color: #fff;
     color: #3b5998;
     font-size: 200%;
-}
+} */
 
 #contact .fa-instagram{
 
     background-color: #fff;
     color: #e1306c;
     font-size: 130%;
+    margin: auto 5px;
 }
 #contact .fa-youtube{
     color: #FF0000;
     background-color: #FFF;
     font-size: 130%;
+    margin: auto 5px;
+}
+
+
+
+/* ------------------------ Our Team -------------------------*/
+
+#team {
+    background-color: #F5F5F5;
+    padding: 15px 10px;
+}
+
+
+#team h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: #323232;
+    font-family: Forum;
+    margin-bottom: 30px;
+}
+
+#team h2::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 170px;
+    background: #8da242;
+    margin: 15px auto 5px;
+    bottom: -16px;
+}
+
+#team h2 span{
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#team .profile{
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#team .profile .pic {
+    opacity: 1;
+    position: relative;
+    display: block;
+}
+
+#team .profile .pic .profile-pic{
+    height: auto;
+    width: 96%;
+    padding: 4px;
+    border: 1px solid #8da242;
+}
+
+#team .profile .desc, #team .profile .desc-member{
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 2;
+    opacity: 1;
+    padding: 5px;
+    border: none;
+}
+
+#team .profile .desc h3, #team .profile .desc-member h3{
+    font-family: Arvo;
+    font-size: 120%;
+    margin-bottom: 1px;
+    color: #8da242;
+}
+#team .profile .desc h4, #team .profile .desc-member h4{
+    font-family: Forum;
+    font-size: 110%;
+    margin: 1px;
+    color: #555;
+}
+#team .profile .desc h5, #team .profile .desc-member h5{
+    font-family: Forum;
+    font-size: 90%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #555;
+}
+
+#team .profile .desc-member{
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 2;
+    opacity: 1;
+    padding: 5px;
+    border: none;
+}
+
+#team .profile .desc-member h3{
+    font-size: 100%;
+}
+
+#team .profile .desc-member h4{
+    font-size: 96%;
+}
+#team .profile .desc-member h5{
+    font-size: 85%;
 }
