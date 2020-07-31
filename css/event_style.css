@@ -1,78 +1,78 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	letter-spacing: 0;
-	font-weight: normal;
-	position: relative;
-	padding: 0 0 10px 0;
-	font-weight: normal;
-	line-height: 120% !important;
-	color: #1f1f1f;
-	margin: 0
+#events h1,
+#events h2,
+#events h3,
+#events h4,
+#events h5,
+#events h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin: 0
 }
 
-h1 {
-	font-size: 24px
+#events h1 {
+    font-size: 24px
 }
 
-h2 {
-	font-size: 22px
+#events h2 {
+    font-size: 22px
 }
 
-h3 {
-	font-size: 18px
+#events h3 {
+    font-size: 18px
 }
 
-h4 {
-	font-size: 21px;
-	color: #07528d;
-	margin-top: 25px;
+#events h4 {
+    font-size: 21px;
+    color: #07528d;
+    margin-top: 25px;
 }
 
-h5 {
-	font-size: 14px
+#events h5 {
+    font-size: 14px
 }
 
-h6 {
-	font-size: 13px
+#events h6 {
+    font-size: 13px
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-	color: #212121;
-	text-decoration: none!important;
-	opacity: 1
+#events h1 a,
+#events h2 a,
+#events h3 a,
+#events h4 a,
+#events h5 a,
+#events h6 a {
+    color: #212121;
+    text-decoration: none !important;
+    opacity: 1
 }
 
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-	opacity: .8
+#events h1 a:hover,
+#events h2 a:hover,
+#events h3 a:hover,
+#events h4 a:hover,
+#events h5 a:hover,
+#events h6 a:hover {
+    opacity: .8
 }
 
-a {
-	color: #1f1f1f;
-	text-decoration: none;
-	outline: none;
+#events a {
+    color: #1f1f1f;
+    text-decoration: none;
+    outline: none;
 }
 
 
-.full > img {
+#events .full>img {
     width: 100%;
 }
 
 
-p {
+#events p {
     margin-top: 5px;
     margin-bottom: 1rem;
     font-size: 16px;
@@ -81,7 +81,7 @@ p {
     color: #4a4a49;
 }
 
-.heading_main h2 {
+#events .heading_main h2 {
     font-size: 40px;
     font-weight: 700;
     padding: 0 0 15px 0;
@@ -93,59 +93,61 @@ p {
     background-repeat: no-repeat;
 }
 
-.heading_main h2 span {
-	color: #8DA242;
-}
-.heading_main h2 span2 {
-	color: #669900;
+#events .heading_main h2 span {
+    color: #8DA242;
 }
 
-span1{
-    color:#446600;
+#events .heading_main h2 span2 {
+    color: #669900;
 }
-.heading_main.text_align_center {
+
+#events span1 {
+    color: #446600;
+}
+
+#events .heading_main.text_align_center {
     width: 100%;
     justify-content: center;
     margin-bottom: 20px;
 }
 
 
-.padding_0 {
-	padding: 0;
+#events .padding_0 {
+    padding: 0;
 }
 
-.design{
-     height:300px;
-    }
-    
-.full {
-	float: left;
-	width: 100%;
+#events .design {
+    height: 300px;
 }
 
-.heading_main {
+#events .full {
+    float: left;
+    width: 100%;
+}
+
+#events .heading_main {
     float: left;
     display: flex;
 }
 
 
-.margin-top_20 {
-	margin-top: 20px;
+#events .margin-top_20 {
+    margin-top: 20px;
 }
 
-.margin-top_30 {
-	margin-top: 30px;
+#events .margin-top_30 {
+    margin-top: 30px;
 }
 
-.margin-top_50 {
-	margin-top: 50px;
+#events .margin-top_50 {
+    margin-top: 50px;
 }
 
-.margin-bottom_30 {
-	margin-bottom: 30px;
+#events .margin-bottom_30 {
+    margin-bottom: 30px;
 }
 
-.carousel a.carousel-control-prev {
+#events .carousel a.carousel-control-prev {
     background: #8DA242;
     opacity: 1;
     width: 55px;
@@ -155,22 +157,22 @@ span1{
     left: -80px;
 }
 
-.carousel a.carousel-control-next {
-	background: #8DA242;
-	opacity: 1;
-	width: 50px;
-	height: 50px;
-	border-radius: 0;
-	top: 200px;
-	right: -80px;
-	
+#events .carousel a.carousel-control-next {
+    background: #8DA242;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    top: 200px;
+    right: -80px;
+
 }
 
 
 
 
 
-.full h4 {
+#events .full h4 {
     width: 86%;
     background: #fff;
     margin: 0 7%;
@@ -180,17 +182,16 @@ span1{
     font-size: 20px;
     min-height: 70px;
     line-height: 70px !important;
-    box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .2);
     margin-top: -35px;
 }
 
 
 
-.silver_bg {
-	background: #eee;
+#events .silver_bg {
+    background: #eee;
 }
 
-.blue_bg {
-	background: #bbbb77;
+#events .blue_bg {
+    background: #bbbb77;
 }
-
